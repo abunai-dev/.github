@@ -9,7 +9,7 @@ Using software architectural modeling, we combine design time uncertainty impact
 This enables both precise and comprehensive statements about the confidentiality of software-intensive systems with respect to uncertainty in the system and its environment.
 
 The project's name is inspired by the Japanese word **あない (abunai)** which translates to dangerous, risky, or uncertain.
-The research project is headed by [Sebastian Hahner](https://dsis.kastel.kit.edu/staff_sebastian_hahner.php) at DSiS, KASTEL Institute, Karlsruhe Institute of Technology (KIT).
+The research project is headed by [Sebastian Hahner](https://dsis.kastel.kit.edu/staff_sebastian_hahner.php) at the DSiS group, KASTEL Institute, Karlsruhe Institute of Technology (KIT).
 
 More information can be found in these key publications:
 
@@ -19,9 +19,19 @@ More information can be found in these key publications:
 
 ## Idea
 
+ABUNAI is based on software architectural modeling using [Palladio](https://www.palladio-simulator.com/). 
+We analyze and integrate the effect of uncertainty in already [existing](https://github.com/PalladioSimulator/Palladio-Addons-DataFlowConfidentiality-Analysis) design time confidentiality analysis. 
+The first step is the **classification** of identified uncertainty sources. 
+Afterward, the uncertainty sources can be propagated and their effect is predicted using **Uncertainty Impact Analysis (UIA)**.
+The results of this analysis can then be used in **uncertainty-aware confidentiality analysis**.
+
 ```mermaid
-graph LR
+graph TD
     RQ("<h2><b>fa:fa-tasks Confidentiality Requirements</b></h2>(e.g., formulated as data flow constraints)") --> intersect
     intersect --> Result("<h2><b>fa:fa-bolt Statements about Confidentiality</b></h2>(must be precise and comprehensive)")
     Uncertainty("<h2><b>fa:fa-question Uncertainty</b></h2>(e.g., in the system or its environment)") --> intersect{ }
 ```
+
+## Structure
+
+The repositories of this organization contain all relevant ABUNAI artifacts. To be continued... 

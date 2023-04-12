@@ -34,4 +34,7 @@ graph TD
 
 ## Structure
 
-The repositories of this organization contain all relevant ABUNAI artifacts. To be continued... 
+The repositories of this organization contain all relevant ABUNAI artifacts:
+
+* [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis) contains the prototype implementaion of an analysis to predict the impact of uncertainty on confidentiality
+* [Case Study: Corona Warn App](https://github.com/abunai-dev/CaseStudy-CoronaWarnApp) contains a case study to evaluate our analyses using the German Corona Warn App

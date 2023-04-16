@@ -8,7 +8,7 @@
 Using software architectural modeling, we combine design time uncertainty impact analysis with data flow-based confidentiality analysis.
 This enables both precise and comprehensive statements about the confidentiality of software-intensive systems with respect to uncertainty in the system and its environment.
 
-The project's name is inspired by the Japanese word **あない (abunai)** which translates to dangerous, risky, or uncertain.
+The project's name is inspired by the Japanese word **あぶない (abunai)** which translates to dangerous, risky, or uncertain.
 The research project is headed by [Sebastian Hahner](https://dsis.kastel.kit.edu/staff_sebastian_hahner.php) at the DSiS group, KASTEL Institute, Karlsruhe Institute of Technology (KIT).
 
 More information can be found in these key publications:

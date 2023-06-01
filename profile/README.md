@@ -13,8 +13,8 @@ The research project is headed by [Sebastian Hahner](https://dsis.kastel.kit.edu
 
 More information can be found in these key publications:
 
-* S. Hahner, R. Heinrich, and R. Reussner, "Architecture based Uncertainty Impact Analysis to ensure Confidentiality", in *18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)*, IEEE/ACM, 2023, accepted, to appear.
-* S. Hahner, S. Seifermann, R. Heinrich, and R. Reussner, "A Classification of Software-Architectural Uncertainty regarding Confidentiality", in *International Conference on E-Business and Telecommunications (ICETE)*, Springer, 2023, accepted, to appear.
+* S. Hahner, R. Heinrich, and R. Reussner, "Architecture based Uncertainty Impact Analysis to ensure Confidentiality", in *18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)*, IEEE/ACM, 2023, [accepted, to appear](publications/HahnerSEAMS23.pdf).
+* S. Hahner, S. Seifermann, R. Heinrich, and R. Reussner, "A Classification of Software-Architectural Uncertainty regarding Confidentiality", in *International Conference on E-Business and Telecommunications (ICETE)*, Springer, 2023, [accepted, to appear](publications/HahnerICETE23.pdf).
 * S. Hahner, et al., "Model-based Confidentiality Analysis under Uncertainty", in *2023 IEEE 20th International Conference on Software Architecture Companion (ICSA-C)*, IEEE, 2023, doi: [10.1109/ICSA-C57050.2023.00062](https://doi.org/10.1109/ICSA-C57050.2023.00062)
 
 ## Idea

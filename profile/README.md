@@ -21,20 +21,21 @@ More information can be found in these key publications:
 
 ABUNAI is based on software architectural modeling using [Palladio](https://www.palladio-simulator.com/). 
 We analyze and integrate the effect of uncertainty in already [existing](https://github.com/PalladioSimulator/Palladio-Addons-DataFlowConfidentiality-Analysis) design time confidentiality analysis. 
-The first step is the **classification** of identified uncertainty sources. 
+The first step is the **identification** and **classification** of uncertainty sources. 
 Afterward, the uncertainty sources can be propagated and their effect is predicted using **Uncertainty Impact Analysis (UIA)**.
-The results of this analysis can then be used in **uncertainty-aware confidentiality analysis**.
+The results of this analysis can then be used in **uncertainty-aware Confidentiality Analysis**.
 
 ```mermaid
 graph TD
-    RQ("<h2><b>fa:fa-tasks Confidentiality Requirements</b></h2>(e.g., formulated as data flow constraints)") --> intersect
-    intersect --> Result("<h2><b>fa:fa-bolt Statements about Confidentiality</b></h2>(must be precise and comprehensive)")
-    Uncertainty("<h2><b>fa:fa-question Uncertainty</b></h2>(e.g., in the system or its environment)") --> intersect{ }
+    RQ("Confidentiality Requirements (formulated as data flow constraints)") --> intersect
+    intersect --> Result("Statements about Confidentiality (must be precise and comprehensive)")
+    Uncertainty("Uncertainty (in the system or its environment)") --> intersect{ }
 ```
 
 ## Structure
 
 The repositories of this organization contain all relevant ABUNAI artifacts:
 
-* [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis) contains the prototype implementaion of an analysis to predict the impact of uncertainty on confidentiality
+* [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis) contains the implementation of an analysis to predict the impact of uncertainty on confidentiality
 * [Case Study: Corona Warn App](https://github.com/abunai-dev/CaseStudy-CoronaWarnApp) contains a case study to evaluate our analyses using the German Corona Warn App
+* [Uncertainty Source Archive](https://github.com/abunai-dev/UncertaintySourceArchive) contains [ARC3N](https://abunai.kronox.dev/), an online repository of classified uncertainty sources

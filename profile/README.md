@@ -1,5 +1,5 @@
 <p align="center"> 
-	<img alt="ABUNAI" src="profile/abunai-art.png">
+	<img alt="ABUNAI" src="abunai-art.png">
 </p>
 
 # Architecture-Based Uncertainty-Aware Confidentiality Analysis

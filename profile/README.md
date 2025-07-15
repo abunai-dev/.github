@@ -33,7 +33,7 @@ More information can be found in these key publications:
 * S. Hahner, et al., "Architecture based Uncertainty Impact Analysis to Ensure Confidentiality", SEAMS, IEEE/ACM, 2023, doi: [10.1109/SEAMS59076.2023.00026](https://doi.org/10.1109/SEAMS59076.2023.00026).
 * S. Hahner, et al., "Model-based Confidentiality Analysis under Uncertainty", ICSA-C, IEEE, 2023, doi: [10.1109/ICSA-C57050.2023.00062](https://doi.org/10.1109/ICSA-C57050.2023.00062).
 
-## Procedure
+## Overview of the Analysis Procedure
 
 The ABUNAI approach comprises four steps to handle the effect of uncertainty on architecture-based confidentiality analysis:
 

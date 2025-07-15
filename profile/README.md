@@ -2,7 +2,7 @@
 	<img alt="ABUNAI" src="abunai-art.png">
 </p>
 
-# Architecture-Based Uncertainty-Aware Confidentiality Analysis
+# Architecture-Based and Uncertainty-Aware Confidentiality Analysis
 
 **ABUNAI** is a research approach for confidentiality analysis under uncertainty.
 Using software architectural modeling, we combine design time uncertainty impact analysis with data flow-based confidentiality analysis.

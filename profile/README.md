@@ -44,30 +44,17 @@ The ABUNAI approach comprises four steps to handle the effect of uncertainty on 
 
 ![Procedure](procedure-light.png#gh-light-mode-only)
 ![Procedure](procedure-dark.png#gh-dark-mode-only)
+<p>&nbsp;</p>
 
 For more information, please read *Chapter 4.1* in the [dissertation](https://doi.org/10.5445/IR/1000178700).
 
-## Idea
 
-ABUNAI is based on software architectural modeling using [Palladio](https://www.palladio-simulator.com/). 
-We analyze and integrate the effect of uncertainty in already [existing](https://github.com/PalladioSimulator/Palladio-Addons-DataFlowConfidentiality-Analysis) design time confidentiality analysis. 
-The first step is the **identification** and **classification** of uncertainty sources. 
-Afterward, the uncertainty sources can be propagated and their effect is predicted using **Uncertainty Impact Analysis (UIA)**.
-The results of this analysis can then be used in **uncertainty-aware Confidentiality Analysis**.
-
-```mermaid
-graph TD
-    RQ("Confidentiality Requirements (formulated as data flow constraints)") --> intersect
-    intersect --> Result("Statements about Confidentiality (must be precise and comprehensive)")
-    Uncertainty("Uncertainty (in the system or its environment)") --> intersect{ }
-```
-
-## Structure
+## Organization Structure
 
 The repositories of this organization contain all relevant ABUNAI artifacts:
 
-* [Uncertainty Source Archive](https://github.com/abunai-dev/UncertaintySourceArchive) contains *ARC3N*, an online repository of classified uncertainty sources, available [online](https://arc3n.abunai.dev/)
-* [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis) contains the implementation of an analysis to predict the impact of uncertainty on confidentiality
-* [Case Study: Corona Warn App](https://github.com/abunai-dev/CaseStudy-CoronaWarnApp) contains a case study to evaluate our analyses using the German Corona Warn App
+* [ARC³N](https://github.com/abunai-dev/ARC3N) contains a catalog of classified uncertainty sources, available [online](https://arc3n.abunai.dev/)
+* [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis) contains an analysis to predict the impact of uncertainty on confidentiality
+* [ABUNAI](https://github.com/abunai-dev/ABUNAI) contains the core analysis to identify confidentiality violations with respect to uncertainty
 
-<!-- Looking for the source? See sebinside/Dissertation -->
+Furthermore, we provide the scenarios used in the evaluation of the approach, see [here](https://doi.org/10.5445/IR/1000178700).

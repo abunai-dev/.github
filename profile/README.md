@@ -42,9 +42,9 @@ The ABUNAI approach comprises four steps to handle the effect of uncertainty on 
 3. [**Propagation**](https://github.com/abunai-dev/UncertaintyImpactAnalysis): To assess the impact of identified and classified uncertainty sources, they can be propagated through the architectural model. Estimating the potential impact early helps in making more precise statements and decisions.
 4. [**Analysis**](https://github.com/abunai-dev/ABUNAI): To apply appropriate mitigation strategies, the effect of uncertainty on the software system's quality has to be analyzed. In our case, this means identifying confidentiality violations due to the identified, classified, and propagated uncertainty.
 
+<p>&nbsp;</p>
 ![Procedure](procedure-light.png#gh-light-mode-only)
 ![Procedure](procedure-dark.png#gh-dark-mode-only)
-<p>&nbsp;</p>
 
 For more information, please read *Chapter 4.1* in the [dissertation](https://doi.org/10.5445/IR/1000178700).
 
@@ -53,8 +53,8 @@ For more information, please read *Chapter 4.1* in the [dissertation](https://do
 
 The repositories of this organization contain all relevant ABUNAI artifacts:
 
-* [ARC³N](https://github.com/abunai-dev/ARC3N) contains a catalog of classified uncertainty sources, available [online](https://arc3n.abunai.dev/)
-* [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis) contains an analysis to predict the impact of uncertainty on confidentiality
-* [ABUNAI](https://github.com/abunai-dev/ABUNAI) contains the core analysis to identify confidentiality violations with respect to uncertainty
+* [ARC³N](https://github.com/abunai-dev/ARC3N) contains a catalog of classified uncertainty sources, available [online](https://arc3n.abunai.dev/).
+* [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis) contains an analysis to predict the impact of uncertainty on confidentiality.
+* [ABUNAI](https://github.com/abunai-dev/ABUNAI) contains the core analysis to identify confidentiality violations with respect to uncertainty.
 
-Furthermore, we provide the scenarios used in the evaluation of the approach, see [here](https://doi.org/10.5445/IR/1000178700).
+Furthermore, we provide the scenarios used in the evaluation of the approach, see [here](https://doi.org/10.5445/IR/1000178700). This includes the [CoronaWarnApp](https://github.com/abunai-dev/EvaluationScenario-CoronaWarnApp), [OnlineShop](https://github.com/abunai-dev/EvaluationScenario-OnlineShop), [Jplag](https://github.com/abunai-dev/EvaluationScenario-JPlag), and [MobilityAsAService](https://github.com/abunai-dev/EvaluationScenario-MaaS) scenarios. Further examples can be found in the [xDECAF organization](https://github.com/DataFlowAnalysis/DataFlowAnalysis).

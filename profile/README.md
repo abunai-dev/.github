@@ -2,7 +2,13 @@
 	<img alt="ABUNAI" src="abunai-art.png">
 </p>
 
-# Architecture-Based & Uncertainty-Aware Confidentiality Analysis
+# ABUNAI
+## Architecture-Based and Uncertainty-Aware Confidentiality Analysis
+
+[![xDECAF framework](https://img.shields.io/badge/xDECAF%20framework-v4.0.0-orange?style=flat-square&logo=eclipse&logoColor=white)](https://doi.org/10.5445/IR/1000178700)
+[![Dissertation](https://img.shields.io/badge/Dissertation-Available-green?style=flat-square&logo=GitBook&logoColor=white)](https://doi.org/10.5445/IR/1000178700)
+[![Overview Slides](https://img.shields.io/badge/Overview%20Slides-Available-green?style=flat-square&logo=Slides&logoColor=white)](https://sebastianhahner.de/talks/2024/DoctoralDefenseSebastianHahner_2024_ArchitectureBasedAndUncertaintyAwareConfidentialityAnalysis.pdf)
+[![Uncertainty Catalog](https://img.shields.io/badge/Uncertainty%20Catalog-Available-green?style=flat-square&logo=github)](https://arc3n.abunai.dev)
 
 **ABUNAI** is a research approach for confidentiality analysis under uncertainty.
 Using software architectural modeling, we combine design time uncertainty impact analysis with data flow-based confidentiality analysis.

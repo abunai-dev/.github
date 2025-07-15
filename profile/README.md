@@ -41,8 +41,8 @@ The ABUNAI approach comprises four steps to handle the effect of uncertainty on 
 2. [**Classification**](https://github.com/abunai-dev/ARC3N): To better understand the type of uncertainty sources and their properties, they can be classified. To that end, classifications and taxonomies provide the foundations for the documentation and the discussion of identified uncertainty.
 3. [**Propagation**](https://github.com/abunai-dev/UncertaintyImpactAnalysis): To assess the impact of identified and classified uncertainty sources, they can be propagated through the architectural model. Estimating the potential impact early helps in making more precise statements and decisions.
 4. [**Analysis**](https://github.com/abunai-dev/ABUNAI): To apply appropriate mitigation strategies, the effect of uncertainty on the software system's quality has to be analyzed. In our case, this means identifying confidentiality violations due to the identified, classified, and propagated uncertainty.
-
 <p>&nbsp;</p>
+
 ![Procedure](procedure-light.png#gh-light-mode-only)
 ![Procedure](procedure-dark.png#gh-dark-mode-only)
 

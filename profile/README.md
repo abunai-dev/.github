@@ -6,23 +6,37 @@
 
 ## Architecture-Based and Uncertainty-Aware Confidentiality Analysis
 
-[![xDECAF analysis framework](https://img.shields.io/badge/xDECAF%20analysis%20framework-v4.0.0-orange?style=flat-square&logo=eclipse&logoColor=white)](https://doi.org/10.5445/IR/1000178700)
+[![xDECAF analysis framework](https://img.shields.io/badge/xDECAF%20analysis%20framework-v4.0.0-orange?style=flat-square&logo=eclipse&logoColor=white)](https://dataflowanalysis.org)
 [![Dissertation](https://img.shields.io/badge/Dissertation-Available-green?style=flat-square&logo=GitBook&logoColor=white)](https://doi.org/10.5445/IR/1000178700)
 [![Overview Slides](https://img.shields.io/badge/Overview%20Slides-Available-green?style=flat-square&logo=Slides&logoColor=white)](https://sebastianhahner.de/talks/2024/DoctoralDefenseSebastianHahner_2024_ArchitectureBasedAndUncertaintyAwareConfidentialityAnalysis.pdf)
 [![Uncertainty Catalog](https://img.shields.io/badge/Uncertainty%20Catalog-Available-green?style=flat-square&logo=github)](https://arc3n.abunai.dev)
 
 **ABUNAI** is a research approach for confidentiality analysis under uncertainty.
-Using software architectural modeling, we combine design time uncertainty impact analysis with data flow-based confidentiality analysis.
-This enables both precise and comprehensive statements about the confidentiality of software-intensive systems with respect to uncertainty in the system and its environment.
+It comprises a classification of uncertainty regarding confidentiality, a catalog of uncertainty sources, an uncertainty impact analysis that propagates uncertainty to predict its impact on the system's confidentiality, and uncertainty-aware confidentiality analyses that identify violations of confidentiality requirements with respect to uncertainty.
+The central idea is to represent classified uncertainty as first-class entity in confidentiality analysis:
+<p>&nbsp;</p>
+
+![Overview](overview-light.png#gh-light-mode-only)
+![Overview](overview-dark.png#gh-dark-mode-only)
 
 The project's name is inspired by the Japanese word **あぶない (abunai)** which translates to dangerous, risky, or uncertain.
-The research project is headed by [Sebastian Hahner](https://dsis.kastel.kit.edu/staff_sebastian_hahner.php) at the DSiS group, KASTEL Institute, Karlsruhe Institute of Technology (KIT).
+The research project was started as the dissertation project of [Dr.-Ing. Sebastian Hahner](https://sebastianhahner.de) at the DSiS group, KASTEL Institute, Karlsruhe Institute of Technology (KIT).
+
+For a comprehensive introduction and details on both the analysis and its evaluation, please see the published dissertation:
+
+* S. Hahner, "Architecture-Based and Uncertainty-Aware Confidentiality Analysis", Karlsruhe Institute of Technology (KIT), Dissertation, 2024, doi: [10.5445/IR/1000178700](https://doi.org/10.5445/IR/1000178700).
 
 More information can be found in these key publications:
 
-* S. Hahner, R. Heinrich, and R. Reussner, "Architecture based Uncertainty Impact Analysis to Ensure Confidentiality", in *18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)*, IEEE/ACM, 2023, doi: [10.1109/SEAMS59076.2023.00026](https://doi.org/10.1109/SEAMS59076.2023.00026)
-* S. Hahner, et al., "Model-based Confidentiality Analysis under Uncertainty", in *2023 IEEE 20th International Conference on Software Architecture Companion (ICSA-C)*, IEEE, 2023, doi: [10.1109/ICSA-C57050.2023.00062](https://doi.org/10.1109/ICSA-C57050.2023.00062)
-* S. Hahner, S. Seifermann, R. Heinrich, and R. Reussner, "A Classification of Software-Architectural Uncertainty Regarding Confidentiality", in *International Conference on E-Business and Telecommunications (ICETE)*, Springer, 2021, doi:  [10.1007/978-3-031-36840-0_8](https://doi.org/10.1007/978-3-031-36840-0_8)
+* S. Hahner, et al., "ARC³N: A Collaborative Uncertainty Catalog to Address the Awareness Problem of Model-Based Confidentiality Analysis", MODELS-C, ACM/IEEE, 2024, doi: [10.1145/3652620.3688556](https://doi.org/10.1145/3652620.3688556).
+* S. Hahner, et al., "Architecture based Uncertainty Impact Analysis to Ensure Confidentiality", SEAMS, IEEE/ACM, 2023, doi: [10.1109/SEAMS59076.2023.00026](https://doi.org/10.1109/SEAMS59076.2023.00026).
+* S. Hahner, et al., "Model-based Confidentiality Analysis under Uncertainty", ICSA-C, IEEE, 2023, doi: [10.1109/ICSA-C57050.2023.00062](https://doi.org/10.1109/ICSA-C57050.2023.00062).
+* S. Hahner, et al., "A Classification of Software-Architectural Uncertainty Regarding Confidentiality", ICETE, Springer, 2023, doi:  [10.1007/978-3-031-36840-0_8](https://doi.org/10.1007/978-3-031-36840-0_8).
+
+## Procedure
+
+![Procedure](procedure-light.png#gh-light-mode-only)
+![Procedure](procedure-dark.png#gh-dark-mode-only)
 
 ## Idea
 

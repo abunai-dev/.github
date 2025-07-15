@@ -4,7 +4,7 @@
 </p>
 <p>&nbsp;</p>
 
-## Architecture-Based and Uncertainty-Aware Confidentiality Analysis
+## ABUNAI: Architecture-Based and Uncertainty-Aware Confidentiality Analysis
 
 [![xDECAF analysis framework](https://img.shields.io/badge/xDECAF%20analysis%20framework-v4.0.0-orange?style=flat-square&logo=eclipse&logoColor=white)](https://dataflowanalysis.org)
 [![Dissertation](https://img.shields.io/badge/Dissertation-Available-green?style=flat-square&logo=GitBook&logoColor=white)](https://doi.org/10.5445/IR/1000178700)
